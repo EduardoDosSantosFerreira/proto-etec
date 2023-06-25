@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Etec de Itanhaém</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" alt="versão (5.2.3)"> 
+  <link rel="stylesheet" href="css/styleforindex.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image" sizes="50x50" href="img/nav/icon.png">
+  <link rel="stylesheet" href="css/aos.css"/>
+</head>
+
+<body>
+  <script src="js/bootstrap.bundle.min.js" alt="versão (5.2.3)"></script>
+
+  <!--inicio da navbar-->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">
+      <div class="container">
+        <img src="img/nav/logotipo-etec.svg" alt="Bootstrap" width="128" height="52">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Escola
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="docs/conselho/atribuicoes.pdf">Conselho Escolar</a></li>
+              <li><a class="dropdown-item" href="apm.html">APM</a></li>
+              <li><a class="dropdown-item" href="historico.html">Histórico</a></li>
+            </ul>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cursos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="dds.html">Desenvolvimento de Sistemas</a></li>
+            <li><a class="dropdown-item" href="adm.html">Administração</a></li>
+            <li><a class="dropdown-item" href="fma.html">Farmácia</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            M-Tec
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mae.html">Meio Ambiente</a></li>
+            <li><a class="dropdown-item" href="adm.html">Administração</a></li>
+            <li><a class="dropdown-item" href="ipi.html">Informática para Internet</a></li>
+          </ul>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Aluno
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="docs/aluno/manual.pdf">Manual do Aluno</a></li>
+              <li><a class="dropdown-item" href="https://nsa.cps.sp.gov.br">NSA</a></li>
+              <li><a class="dropdown-item" href="docs/aluno/normas.pdf">Normas de Convivência</a></li>
+            </ul>
+          </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          vestibulinho
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.vestibulinhoetec.com.br/candidato/">Área do Canditado</a></li>
+          <li><a class="dropdown-item" href="https://www.vestibulinhoetec.com.br/calendario/">Calendário</a></li>
+          <li><a class="dropdown-item" href="https://www.vestibulinhoetec.com.br/fale-conosco/">Fale-Conosco</a></li>
+        </ul>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="perguntas-frequentes.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fale-conosco.html">Contato</a>
+        </li>
+      </ul>
+      <a href="https://www.cps.sp.gov.br/etecs/etec-de-itanhaem/" class="pull-right" target="_blank"><img width="100"
+          height="52" src="img/nav/centro-paula-souza-logo.svg"
+          class="custom-logo jetpack-lazy-image jetpack-lazy-image--handled" alt="Centro Paula Souza" decoding="async"
+          data-lazy-loaded="1" loading="eager"></a>         
+    </div>
+    </div>
+  </nav>
+  <!--fim da navbar-->
+
+  <!-- inicio do carrossel -->
+  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="img/hme/carrosel-img-01.jpg" class="d-block w-100 c-img" alt="Slide 1">
+        <div class="carousel-caption top-1 mt-0">
+          <h1>Etec de Itanhaém</h1>
+          <p>Conheça nossos cursos!</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="img/hme/carrosel-img-02.jpg" class="d-block w-100 c-img" alt="Slide 2">
+        <div class="carousel-caption top-1 mt-0">
+          <h1>Etec de Itanhaém</h1>
+          <p>Venha fazer parte você também da Etec de Itanhaém!</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="img/hme/carrosel-img-03.jpg" class="d-block w-100 c-img" alt="Slide 3">
+        <div class="carousel-caption top-1 mt-0">
+          <h1>Etec de Itanhaém</h1>
+          <p>Trabalhando o Presente, preparando o Futuro!!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- fim do carrosel -->
+  <br>
+
+  <!-- inicio da unidade de introdução -->
+  <div class="unidade-introducao" data-aos="fade-up">
+    <div class="sc_content_container">
+      <div id="sc_title_1459963616" class="sc_title sc_title_default">
+        <br>
+        <h6 class="sc_item_subtitle sc_title_subtitle sc_align_center sc_item_title_style_default">Olá, tudo bem!</h6>
+        <h1><strong class="sc_item_title sc_title_title sc_align_center sc_item_title_style_default">Seja bem-vindo a
+            Etec de Itanhaém</strong></h1>
+        <div class="sc_item_descr sc_title_descr sc_align_center">
+          <p>Nossa escola está envolvidas em várias atividades que melhoram e aprimoram as capacidades críticas e
+            técnicas de nossos alunos, venha e faça-nos uma visita.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <!-- fim da introdução -->
+
+  <!-- inicio da unidade de cursos -->
+  <div class="unidade-cursos" data-aos="fade-up">
+    <br>
+    <i class="fa fa-graduation-cap" style="font-size:48px;color:#000000"></i>
+    <strong>
+      <h2> Cursos Oferecidos</h2>
+    </strong>
+    <h5>Cursos Técnicos - Modalidade Presencial</h5>
+    <p>
+      <a href="adm.html">Administração</a><br>
+      <a href="dds.html">Desenvolvimento de Sistemas</a><br>
+      <a href="fma.html">Farmácia</a><br>
+    </p>
+    <h5>Ensino Médio integrado ao técnico (M-Tec)</h5>
+    <p>
+      <a href="adm.html">Administração</a><br>
+      <a href="ipi.html">Informática para Internet</a><br>
+      <a href="mae.html">Meio Ambiente</a><br>
+    </p>
+    <br>
+  </div>
+  <div id="m-tec"></div>
+  <!-- fim da unidade de cursos -->
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- unidade de introdução ao m-tec -->
+  <div id="m-tec-intro" class="container" data-aos="fade-up">
+    <img id="introgirl" width="880" height="700" src="img/hme/img-girl-01.jpeg" class="img-fluid">
+    <div class="ioa" data-aos="fade-left">
+      <h4>
+        Ensino Médio integrado ao técnico (M-Tec)
+      </h4>
+      <p id="textgirl" data-aos="fade-left">
+        O Ensino Técnico Integrado ao Ensino Médio é uma das três modalidades de formação a nível técnico no Brasil,
+        sendo as outras duas o curso técnico concomitante e o curso técnico profissionalizante.
+
+        Nessa modalidade, foco do nosso artigo, o estudante realiza o Técnico ao mesmo tempo em que cursa o Ensino
+        Médio. Assim, quando termina o 3º ano e encerra o ensino básico, o aluno recebe dois certificados: o diploma de
+        técnico que lhe dará o direito de exercer a habilitação profissional e o diploma de formação a nível médio, que
+        permite que ele possa prosseguir os estudos no nível da educação superior.
+
+        Quanto ao conteúdo dos cursos, nada muda! Os cursos abrangem, concomitantemente, habilidades específicas do
+        ensino técnico e do Ensino Médio, buscando a interdisciplinaridade. Desta forma, os estudantes seguem as mesmas
+        diretrizes curriculares de quem faz o Ensino Médio e Técnico separadamente. Para atender a esse requisito,
+        normalmente os alunos precisam ter aulas no turno oposto, ou seja, de manhã e à tarde, ou à tarde e à noite.
+
+      </p>
+    </div>
+  </div>
+  <!-- fim da introdução ao m-tec -->
+  <br>
+  <br>
+  <!-- unidade de tributos -->
+  <div class="cards" data-aos="fade-up">
+    <br>
+    <h2>
+      <div class="tb" data-aos="fade-right">
+        <p id="Zaara01"> Tributo as Personalidades
+      </div>
+    </h2>
+    <br>
+    <main  class="mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <section class="col-sm-4">
+            <article class="card" data-aos="fade-left">
+              <img src="img/hme/paulofreire.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Paulo Freire</h5>
+                <p class="card-text">Paulo Reglus Neves Freire foi um educador e filósofo brasileiro. É considerado um
+                  dos pensadores mais notáveis na história da pedagogia mundial, tendo influenciado o movimento chamado
+                  pedagogia crítica. É também o Patrono da Educação Brasileira. Freire acredita que "a educação faz
+                  sentido porque mulheres e homens aprendem que através da aprendizagem podem fazerem-se e refazerem-se,
+                  porque mulheres e homens são capazes de assumirem a responsabilidade sobre si mesmos como seres
+                  capazes de conhecerem."ㅤ</p>
+              </div>
+            </article>
+          </section>
+          <section class="col-sm-4">
+            <article class="card" data-aos="fade-down">
+              <img src="img/hme/paulosouza.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Paula Souza</h5>
+                <p class="card-text">Paula Souza era reconhecidamente um homem à frente de seu tempo e caracterizou-se
+                  como um educador que sempre defendeu o papel da escola como meio de formação de profissionais e não
+                  somente um local para discussões acadêmicas. Mais de 50 anos após sua morte, os princípios idealizados
+                  por Paula Souza começaram se concretizar com a criação do Centro Estadual de Educação Tecnológica de
+                  São Paulo, em 6 de outubro de 1969, que posteriormente foi rebatizado como Centro Paula Souza, em
+                  homenagem ao professor.</p>
+              </div>
+            </article>
+          </section>
+          <section class="col-sm-4">
+            <article class="card" data-aos="fade-right">
+              <img id="ft" src="img/hme/joseserra.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">José Serra</h5>
+                <p class="card-text">Em 2007 o então Governador Eleito Excelentíssimo Sr. José Serra assinou seu
+                  primeiro decreto como Governador, criando a ETEC de Itanhaém como unidade própria e independente, em
+                  24/01/07, decreto nº 51.500.
+                  No segundo semestre de 2007, implantamos mais dois cursos Técnicos em Administração e Web Design ambos
+                  com quarenta alunos, o último no período vespertino. No final de 2007, não compartilhávamos o prédio
+                  da escola, nos possibilitando a ampliar nossos cursos.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+                </p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div id="unidade-cursos"></div>
+    <br>
+  </div>
+  <!-- fim da unidade de tributos -->
+  <br>
+  <!-- introdução aos cursos técnicos -->
+  <div class="container-wrapper" data-aos="fade-left">
+    <h2>
+      <p id="Zaara02"> Introdução aos Cursos Técnicos
+    </h2>
+  </div>
+  <sectin id="seck02">
+    </section>
+    <div class="container">
+      <br>
+      <section class="home-intro" data-aos="fade-right">
+        <div class="home-intro__wrapper">
+          <aside class="embed">
+            <img id="radius-img" width="560" height="315" src="img/hme/dev-img.jpeg">
+          </aside>
+          <div>
+            <h2 class="home-intro__title">
+              Conheça
+              <a href="dds.html">
+                <strong style="color: #00758f;">Desenvolvimento de Sistemas</strong></a>
+            </h2>
+            <p class="home-intro__text">
+              O curso de desenvolvimento de sistemas é uma formação que prepara os estudantes para projetar, desenvolver
+              e implementar sistemas de software. Os alunos aprendem a programar em várias linguagens, como Java, C++,
+              Python, entre outras, e também estudam banco de dados, arquitetura de sistemas, engenharia de software e
+              desenvolvimento web. O currículo abrange técnicas de programação, análise de requisitos, testes de
+              software e gestão de projetos. Os graduados em desenvolvimento de sistemas podem atuar em empresas de TI,
+              startups, consultorias ou até mesmo empreender seu próprio negócio na área de tecnologia. Eles estão
+              preparados para criar soluções de software eficientes e inovadoras, lidar com as demandas do mercado e
+              contribuir para o avanço da tecnologia da informação.
+            </p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="home-intro" data-aos="fade-right">
+        <div class="home-intro__wrapper">
+          <aside class="embed">
+            <img id="radius-img" width="560" height="315" src="img/hme/adm-img.jpeg">
+          </aside>
+          <div>
+            <h2 class="home-intro__title">
+              Conheça
+              <a href="adm.html">
+                <strong  style="color: #3947b0;">Administração</strong></a>
+            </h2>
+            <p class="home-intro__text">
+              O curso de administração é uma formação voltada para o desenvolvimento de habilidades gerenciais e
+              estratégicas em organizações. Os estudantes aprendem sobre planejamento, organização, direção e controle
+              de recursos para alcançar objetivos corporativos. O currículo abrange temas como gestão de pessoas,
+              finanças, marketing, operações, ética e estratégia. Os graduados em administração podem atuar em diversas
+              áreas, como empresas privadas, organizações sem fins lucrativos, governo e empreendedorismo, e estão
+              preparados para liderar equipes, tomar decisões estratégicas e enfrentar os desafios do mundo corporativo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="home-intro" data-aos="fade-right">
+        <div class="home-intro__wrapper">
+          <aside class="embed">
+            <img id="radius-img" width="560" height="315" src="img/hme/fma-img.jpeg">
+          </aside>
+          <div>
+            <h2 class="home-intro__title">
+              Conheça
+              <a href="fma.html">
+                <strong style="color: #a71d2a;">Farmácia</strong></a>
+            </h2>
+            <p class="home-intro__text">
+              O curso de farmácia é uma formação voltada para o estudo e a aplicação de conhecimentos na área de saúde e
+              medicamentos. Os estudantes aprendem sobre a produção, dispensação, controle, armazenamento e uso correto
+              de medicamentos e produtos farmacêuticos. O currículo abrange disciplinas como química farmacêutica,
+              farmacologia, toxicologia, farmacotécnica, bioquímica, microbiologia e legislação farmacêutica. Além
+              disso, os alunos são preparados para realizar atividades clínicas, orientar pacientes, gerenciar farmácias
+              e atuar em laboratórios de análises clínicas. Os graduados em farmácia podem trabalhar em farmácias
+              comunitárias, hospitais, indústrias farmacêuticas, órgãos regulatórios, pesquisa científica e outras áreas
+              relacionadas à saúde, contribuindo para a promoção do uso seguro e eficaz de medicamentos e a melhoria da
+              qualidade de vida dos pacientes.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- fim da introdução aos cursos técnicos -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- introdução aos cursos m-tec  -->
+    <div style="background-color: #000000;" class="container-fluid" class="img-fluid">
+      <br>
+      <div class="intro-mtec-cursos" data-aos="fade-right">
+        <h2>
+          <p id="Zaara"> Cursos do Ensino Médio integrado ao técnico (M-Tec)
+        </h2>
+        <h6>
+          <p id="Zaara03">Cursos únicos e exclusivos para os alunos do ensino integrado e técnico</p>
+        </h6>
+      </div>
+      <div style="background-color: #000000;" class="container-wrapper">
+        <section style="background-color: #000000;" class="home-intro" data-aos="fade-left">
+          <div style="background-color: #000000;" class="home-intro__wrapper">
+            <div>
+              <h2 style="color: #ffffff; background-color: #000000;" class="home-intro__title">
+                Conheça
+                <a href="mae.html">
+                  <strong style="color:#a61322da ;">Meio-Ambiente</strong></a>
+              </h2>
+              <p style="background-color: #000000; color: #ffffff;" class="home-intro__text">
+                O curso tem base em duas disciplinas principais: biologia e química. A primeira, para aprender sobre a
+                diversidade da vida, compreensão de ecossistema, as relações entre os seres vivos e ciclo da matéria no
+                ambiente. A segunda, para compreensão de métodos de separação de matéria. O aluno também aprenderá
+                interpretação de texto para entender normas técnicas, resoluções, portarias e decretos. Também fazem
+                parte da grade aulas direcionadas a equipamentos de laboratórios, coletas padronizadas, poluição
+                atmosférica e mudanças climáticas.
+              </p>
+            </div>
+            <aside style="background-color: #000000;" class="embed">
+              <br>
+              <img id="radius-img" width="560" height="315" src="img/hme/mae-img.jpeg">
+            </aside>
+          </div>
+        </section>
+        <br>
+        <br>
+        <section style="background-color: #000000;" class="home-intro" data-aos="fade-left">
+          <div style="background-color: #000000;" class="home-intro__wrapper">
+            <div>
+              <h2 style="color: #ffffff; background-color: #000000;" class="home-intro__title">
+                Conheça
+                <a href="ipi.html">
+                  <strong style="color: #0040ffaa;">Informática para Internet</strong></a>
+              </h2>
+              <p style="background-color: #000000; color: #ffffff;" class="home-intro__text">
+                Informática para internet é um curso técnico ou tecnólogo que prepara os estudantes para trabalhar com
+                tecnologias e ferramentas voltadas para a internet. O curso aborda programação, design e gestão de
+                conteúdo para a web, desenvolvimento de sistemas web, segurança na internet, redes de computadores,
+                entre outros temas.O curso de Informática para internet é voltado para profissionais que desejam
+                trabalhar no desenvolvimento e gestão de sistemas e aplicativos para a web, tanto em empresas de
+                tecnologia quanto em organizações que utilizam a internet como meio de comunicação e negócios. O mercado
+                de trabalho para profissionais com esse tipo de formação é bastante amplo, com oportunidades em empresas
+                de tecnologia, agências de publicidade e marketing digital, instituições de ensino, entre outras áreas.
+              </p>
+            </div>
+            <aside style="background-color: #000000;" class="embed">
+              <img id="radius-img" width="560" height="315" src="img/hme/ipi.jpeg">
+            </aside>
+          </div>
+        </section>
+      </div>
+      <!-- fim da introdução  dos cursos m-tec  -->
+
+      <!-- background all class  -->
+      <div style="background-color: #000000;" class="class br">
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+      <!-- background final class  -->
+
+      <!-- inicio footer  -->
+
+    <footer style="list-style-type: none;" class="site-footer" data-gtm-vis-recent-on-screen-36284894_45="14882"
+      data-gtm-vis-first-on-screen-36284894_45="14882" data-gtm-vis-total-visible-time-36284894_45="100"
+      data-gtm-vis-has-fired-36284894_45="1">
+    
+      <div class="l-container site-footer__container">
+        <div class="site-footer__row site-footer__row--navigation">
+          <div class="site-footer__menu-col">
+            <h2 class="site-footer__menu-heading">ㅤㅤAluno &amp; Candidato</h2>
+            <nav class="site-footer__nav" aria-label="Security &amp; Brand Navigation">
+    
+              <ul type="none" class="site-footer__nav-list">
+                <li class="footer-one__item"><a href="https://www.vestibulinhoetec.com.br/candidato/" class="footer-one__action"
+                    data-attribute="report-copyright-infringement-2">Área do
+                    Candidato</a></li>
+                <li class="footer-one__item"><a href="docs/aluno/manual.pdf" class="footer-one__action"
+                    data-attribute="report-security-issue-2">Manual do
+                    Aluno</a></li>
+                <li class="footer-one__item"><a href="docs/aluno/normas.pdf"
+                    class="footer-one__action" data-attribute="trademark-notice">Normas &amp;
+                    Convivência</a>
+                </li>
+              </ul>
+    
+            </nav>
+          </div>
+          <div class="site-footer__menu-col">
+            <h2 class="site-footer__menu-heading">ㅤㅤWebsite</h2>
+            <nav class="site-footer__nav" aria-label="Website Navigation">
+    
+              <ul type="none" class="site-footer__nav-list">
+                <li class="footer-two__item"><a href="#unidade-cursos" class="footer-two__action"
+                    data-attribute="accessibility">Cursos</a></li>
+                <li class="footer-two__item"><a href="#m-tec"
+                    class="footer-two__action" data-attribute="digital-accessibility">M-TEC</a></li>
+                <li class="footer-two__item"><a href="historico.html" class="footer-two__action"
+                    data-attribute="9826">Histórico</a></li>
+              </ul>
+    
+            </nav>
+          </div>
+          <div class="site-footer__menu-col">
+            <h2 class="site-footer__menu-heading">ㅤㅤContato</h2>
+            <nav class="site-footer__nav" aria-label="Get In Touch Navigation">
+    
+              <ul type="none" class="site-footer__nav-list">
+                <li class="footer-three__item"><a href="fale-conosco.html" class="footer-three__action"
+                    data-attribute="contact-harvard">Telefone &amp; Fax</a></li>
+                <li class="footer-three__item"><a href="fale-conosco.html" class="footer-three__action"
+                    data-attribute="maps-directions">Mapa &amp; Direção</a></li>
+                <li class="footer-three__item"><a href="fale-conosco.html" class="footer-three__action"
+                    data-attribute="jobs">Emails</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    
+        <div class="site-footer__row site-footer__row--secondary">
+          <div class="site-footer__copyright">
+            <p>© 2023&nbsp;Eduardo S Ferreira</p>
+          </div>
+    
+          <div class="site-footer__logo ">
+            <a href="">ㅤㅤ
+              <img src="img/ftr/logo-white-svg.svg" alt="Harvard University">
+            </a>
+          </div>
+    
+          <div class="site-footer__social ">
+    
+            <div class="social-follow">
+    
+              <ul type="none" class="social-follow__list">
+                <li class="social-follow__item social-follow__item--facebook">
+    
+                  <a href="https://www.facebook.com/etecdeitanhaem/?locale=pt_BR" class="social-follow__anchor"
+                    rel="me noopener" title="Facebook" target="_blank">
+                    <img src="img/ftr/fbk.png" style="height: 50px;" alt="">
+                  </a>ㅤ
+    
+                  <a href="https://br.linkedin.com/company/etec-itanhaém" class="social-follow__anchor" rel="me noopener"
+                    title="Linkedin" target="_blank">
+                    <img src="img/ftr/in.png" style="height: 50px;" alt="">
+                  </a>ㅤ
+                  <a href="https://api.whatsapp.com/send?phone=551334264926" class="social-follow__anchor" rel="me noopener"
+                    title="Whatsapp" target="_blank">
+                    <img src="img/ftr/wts.png" style="height: 50px;" alt="">
+                  </a>ㅤ
+                  <a href="https://www.instagram.com/etecdeitanhaem/" class="social-follow__anchor" rel="me noopener"
+                    title="Instagram" target="_blank">
+                    <img src="img/ftr/ins.png" style="height: 50px;" alt="">
+                  </a>ㅤ
+    
+    
+                </li>
+    
+              </ul>
+    
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    
+    </footer>
+
+      <!-- final footer  -->
+      <!-- fim -->
+
+      <!-- seção de scripts  -->
+
+      <script src="js/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 2000,
+        }
+        );
+      </script>
+      <a href="#" class="to-top">
+        <i class="fa fa-chevron-up" style="font-size:25px;color:rgb(0, 0, 0)"></i></a>
+      <script src="js/main.js"></script>
+
+      <!-- final da seção de scripts -->
+
+</body>
+
+</html>
